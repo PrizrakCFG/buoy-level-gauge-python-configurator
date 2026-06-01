@@ -343,7 +343,6 @@ class ConfiguratorApp(tk.Tk):
             messagebox.showerror("Ошибка", f"Не удалось обновить предел шкалы:\n{e}")
             self._log(f"Ошибка записи диапазона: {e}")
 
-
 if __name__ == "__main__":
     app = ConfiguratorApp()
     app.mainloop()
